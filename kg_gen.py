@@ -47,7 +47,7 @@ def documents2Dataframe(documents) -> pd.DataFrame:
 
 def graphPrompt3(input: str, metadata={}):
     
-    GOOGLE_API_KEY='AIzaSyC-Oev_8ZghBDAk-1INW9WuaGf7W86oKS8'
+    GOOGLE_API_KEY=''
 
     genai.configure(api_key=GOOGLE_API_KEY)
     
